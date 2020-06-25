@@ -15,6 +15,7 @@
     "license": "ISC",
     "devDependencies": {
         "ava": "^3.8.2",
+        "sucrase": "^3.15.0",
         "ts-node": "^8.10.2",
         "typescript": "^3.9.5"
     },
@@ -23,7 +24,7 @@
             "ts"
         ],
         "require": [
-            "ts-node/register"
+            "sucrase/register/ts"
         ]
     }
 }
